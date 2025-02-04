@@ -67,8 +67,6 @@ export class Answer {
       console.log(data);
 
       this.feedback(id, data);
-    } else {
-      this.message("Mot invalide");
     }
   }
   isAlphaNumeric(word) {
@@ -81,11 +79,10 @@ export class Answer {
         console.log(this.#game);
         console.log("gagné");
         this.#game.message("Vous avez gagné !")
+        this.#game.stop();
+
     } else if (data.status === "invalid"){
-        // if(this.#usersTries == this.#game.tries){
-        //     this.#game.message("Vous avez perdu...")
-        // }
-        this.#game.message("Essayez encore !")
+        this.#game.message(data.message)
     }
 
     let line = 0;

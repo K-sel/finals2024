@@ -1,4 +1,3 @@
-import { Answer } from "./modules/answer";
 import { Game } from "./modules/game";
 
 const board = document.querySelector("main.board");

@@ -14,6 +14,10 @@ export class Game {
     return this.tries;
   }
 
+  stop(){
+    document.querySelector("main").setAttribute("inert", true);
+  }
+
   createGame() {
     for (let i = 0; i < this.tries; i++) {
       this.#answers.unshift(new Answer(i, this));
