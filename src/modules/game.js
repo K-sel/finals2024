@@ -16,7 +16,6 @@ export class Game {
 
   stop(){
     document.querySelector("main").setAttribute("inert", true);
-    
   }
 
   createGame() {
