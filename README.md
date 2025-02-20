@@ -1,74 +1,70 @@
-# WWWordle - Projet académique de développement web
+# WWWordle - Academic Web Development Project
 
-## 🎯 Vue d'ensemble
-WWWordle est une réimplémentation du célèbre jeu Wordle réalisée dans le cadre d'un examen de programmation web. Le projet consistait à développer la logique de jeu en JavaScript, en se concentrant sur l'architecture modulaire et la programmation orientée objet, sans modifier le HTML/CSS fourni.
+## 🎯 Overview
+WWWordle is a reimplementation of the popular Wordle game, developed as part of a web programming exam. The project focused on developing the game logic in JavaScript, emphasizing modular architecture and object-oriented programming, while working with provided HTML/CSS.
 
-## 💡 Compétences développées
+## 💡 Skills Developed
+### Architecture and Design
+- Implementation of modular architecture in JavaScript (ES6+)
+- Application of object-oriented programming principles
+- Separation of concerns between different modules
 
-### Architecture et conception
-- Implémentation d'une architecture modulaire en JavaScript (ES6+)
-- Application des principes de la programmation orientée objet
-- Séparation des responsabilités entre différents modules
+### Modern JavaScript
+- Use of ES6 classes
+- Asynchronous handling with Promises
+- Advanced DOM manipulation
+- Keyboard event handling and navigation
 
-### JavaScript moderne
-- Utilisation des classes ES6
-- Gestion asynchrone avec les Promises
-- Manipulation avancée du DOM
-- Gestion des événements et de la navigation au clavier
+### Code Quality
+- Organized and maintainable code
+- Adherence to web development standards
+- Integration with Vite.js for building
+- Git version control
 
-### Qualité de code
-- Code organisé et maintenable
-- Respect des standards de développement web
-- Intégration avec Vite.js pour le build
-- Versioning avec Git
+## 🎮 Implemented Features
+### User Interface
+- Dynamic form generation
+- Intuitive field navigation
+- Real-time visual feedback
+- Contextual information messages
 
-## 🎮 Fonctionnalités implémentées
+### Game Logic
+- User input validation
+- Server communication
+- Game state management
+- Multiple attempts system
 
-### Interface utilisateur
-- Génération dynamique des formulaires de saisie
-- Navigation intuitive entre les champs
-- Retour visuel en temps réel
-- Messages d'information contextuels
+### Error Handling
+- Client-side validation
+- Server response processing
+- Appropriate error message display
 
-### Logique de jeu
-- Validation des entrées utilisateur
-- Communication avec le serveur
-- Gestion des états de jeu
-- Système de tentatives multiples
-
-### Gestion des erreurs
-- Validation côté client
-- Traitement des réponses serveur
-- Affichage des messages d'erreur appropriés
-
-## 🛠 Structure du projet
-
+## 🛠 Project Structure
 ```
 src/
   ├── modules/
-  │   ├── Answer.js    # Gestion des tentatives individuelles
-  │   ├── Game.js      # Logique principale du jeu
-  │   └── app.js       # Point d'entrée de l'application
+  │   ├── Answer.js    # Individual attempt management
+  │   ├── Game.js      # Main game logic
+  │   └── app.js       # Application entry point
   ├── index.html
   └── style.css
 ```
 
-## 📚 Ce que j'ai appris
-- Organisation d'un projet JavaScript moderne
-- Gestion d'états complexes dans une application web
-- Importance de la séparation des responsabilités
-- Communication client-serveur asynchrone
-- Manipulation avancée du DOM et gestion des événements
-- Bonnes pratiques de versioning avec Git
+## 📚 What I Learned
+- Modern JavaScript project organization
+- Complex state management in web applications
+- Importance of separation of concerns
+- Asynchronous client-server communication
+- Advanced DOM manipulation and event handling
+- Git versioning best practices
 
+## 🎓 Academic Context
+This project was completed as part of a web programming exam, **achieving a grade of 5.9/6.** The goal was to implement modern web programming concepts while adhering to strict technical constraints.
 
-## 🎓 Contexte académique
-Ce projet a été réalisé dans le cadre d'un examen de programmation web, obtenant une note de 5.9/6. L'objectif était de mettre en pratique les concepts de programmation web moderne tout en respectant des contraintes techniques strictes.
-
-## 🔍 Points d'amélioration potentiels
-- Ajout de tests unitaires
-- Implémentation du stockage local pour sauvegarder les parties
-- Amélioration de l'accessibilité
-- Ajout d'animations pour enrichir l'expérience utilisateur
+## 🔍 Potential Improvements
+- Addition of unit tests
+- Implementation of local storage for game saves
+- Accessibility improvements
+- Addition of animations to enhance user experience
 
 ---
